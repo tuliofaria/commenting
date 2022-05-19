@@ -10,6 +10,10 @@ This is a commitizen friendly repo. In order to commit, use:
 cz
 ```
 
+## Folder and project structure
+
+- `html-template`: this folder/project houses the initial HTML template draft. The goal is to extract some CSS values from the Figma design .
+
 # Author
 
 Tulio Faria
