@@ -1,7 +1,7 @@
 const baseUrl =
   window.location.hostname === 'localhost'
     ? 'http://localhost:3000'
-    : 'https://https://commenting-test.herokuapp.com'
+    : 'https://commenting-test.herokuapp.com'
 
 console.log('using ', baseUrl, 'as endpoint.')
 
