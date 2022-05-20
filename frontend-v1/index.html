@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Commenting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>
+      Page content
+    </h1>
+    <form>
+      Simulate sign-in:
+      <input type="text" id="userId" placeholder="Paste user id" />
+      <button type="button" onclick="signIn()">Sign in</button>
+      <button type="button" onclick="signOut()">Sign out</button>
+    </form>
+
+    <div class="discussions">
+      <h3 class="discussion-title">Discussion</h3>
+      <div class="signin-alert" id="signin-alert">You should be signed-in in order to comment.</div>
+      <div class="new-discussion" id="new-discussion">
+        <img
+          class="avatar"
+          src="https://i.pravatar.cc/60"
+          width="30"
+          height="30"
+        />
+        <form>
+          <input type="text" placeholder="What are your thougths?" id="commentContent" />
+          <button type="button" onclick="submitComment()">Comment</button>
+        </form>
+      </div>
+      <hr />
+      <div id="comments"></div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

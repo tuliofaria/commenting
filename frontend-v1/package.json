@@ -1,0 +1,15 @@
+{
+  "name": "frontend-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve ./"
+  },
+  "keywords": [],
+  "author": "Tulio Faria",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
