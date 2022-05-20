@@ -16,11 +16,16 @@ cz
 - `frontend-v1`: first version of the frontend created using Vanilla Javascript. Published at: [https://commenting-frontend-v1.tuliofaria.dev/](https://commenting-frontend-v1.tuliofaria.dev). Copy one user id from the list of users, paste in the input field and click Signin.
 
 ## Sign-in:
-In order to see the users available, you need to get this endpoint:
+In order to see the available users, you need to get this endpoint:
 
 [https://commenting-test.herokuapp.com/users](https://commenting-test.herokuapp.com/users)
 
-* Additionally, you can also create a new user with a POST request to the same endpoint, sending a json body with name.
+* Additionally, you can also create a new user with a POST request to the same endpoint, sending a json body like this:
+```
+{
+	"name": "Tulio Faria"
+}
+```
 
 # Author
 
