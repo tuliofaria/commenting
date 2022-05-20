@@ -4,9 +4,7 @@
   "description": "npm install -g commitizen",
   "main": "index.js",
   "scripts": {
-    "commit": "cz",
-    "postinstall": "cd backend && npm install && npm run build",
-    "start": "cd backend && npm run start"
+    "commit": "cz"
   },
   "keywords": [],
   "author": "Tulio Faria",
