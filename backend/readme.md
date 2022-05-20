@@ -3,6 +3,6 @@
 Running migrations:
 
 ```
-npx knex migrate:latest
+npx knex --knexfile=./src/knexfile.ts migrate:latest
 ```
 
