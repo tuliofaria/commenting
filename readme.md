@@ -15,6 +15,7 @@ This way, all commit messages are going to have the same format. Allowing in the
 ## Folder and project structure
 
 - `html-template`: this folder/project houses the initial HTML template draft. The goal is to extract some CSS values from the Figma design. Published at: [https://commenting-template.tuliofaria.dev/](https://commenting-template.tuliofaria.dev/)
+- `backend`: this folder/project houses the backend code. It´s a NodeJS, ExpressJS, Knex, Bookshelf.js with PostgreSQL as database (to make it simpler to deploy to Heroku). Published at: [https://commenting-test.herokuapp.com/](https://commenting-test.herokuapp.com/)
 - `frontend-v1`: first version of the frontend created using Vanilla Javascript. Published at: [https://commenting-frontend-v1.tuliofaria.dev/](https://commenting-frontend-v1.tuliofaria.dev). Copy one user id from the list of users, paste in the input field and click Signin.
 - `frontend-v2`: second version of the frontend created using React. Published at: [https://commenting-frontend-v2.tuliofaria.dev/](https://commenting-frontend-v2.tuliofaria.dev). It uses NextJS as platform and besides having a better UX it alse integrates with Socket.io to receive realtime updates.
 
