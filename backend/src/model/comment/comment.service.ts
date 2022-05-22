@@ -21,7 +21,6 @@ export const findAllComments = async () => {
       // @ts-ignore
       comments: nestedComments.filter((nestedComment) => {
         const nested = nestedComment.toJSON()
-        console.log(nested.comment_id === comment.id)
         return nested.comment_id === comment.id
       })
     }
@@ -73,7 +72,6 @@ export const findCommentByIdSignedIn = async (id: string, userId: string) => {
     // @ts-ignore
     comments: nestedComments.filter((nestedComment) => {
       const nested = nestedComment.toJSON()
-      console.log(nested.comment_id === comment.id)
       return nested.comment_id === comment.id
     })
   }
@@ -98,7 +96,6 @@ export const findCommentById = async (id: string) => {
     // @ts-ignore
     comments: nestedComments.filter((nestedComment) => {
       const nested = nestedComment.toJSON()
-      console.log(nested.comment_id === comment.id)
       return nested.comment_id === comment.id
     })
   }
@@ -135,7 +132,6 @@ export const findAllCommentsSignedIn = async (userId: string) => {
       // @ts-ignore
       comments: nestedComments.filter((nestedComment) => {
         const nested = nestedComment.toJSON()
-        console.log(nested.comment_id === comment.id)
         return nested.comment_id === comment.id
       })
     }
