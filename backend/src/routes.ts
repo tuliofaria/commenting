@@ -10,6 +10,8 @@ router.get('/users/:id', UsersController.findById)
 
 router.get('/comments', CommentsController.findAll)
 router.post('/comments', CommentsController.create)
+router.get('/comments/:id', CommentsController.findById)
+router.post('/comments/:id/comments', CommentsController.createReply)
 router.post('/comments/:id/upvote', CommentsController.upvote)
 
 export default router
