@@ -12,7 +12,7 @@ const port = process.env.PORT || 3001
 
 const server = http.createServer(app)
 
-app.use(cors())
+app.use(cors({ origin: ['*.tuliofaria.dev'], methods: ['GET', 'POST'] }))
 app.use(express.json())
 app.use(router)
 
