@@ -15,7 +15,7 @@ const server = http.createServer(app)
 app.use(
   cors({
     origin: ['*.tuliofaria.dev'],
-    methods: ['GET', 'POST'],
+    methods: 'GET,POST',
     allowedHeaders: '*'
   })
 )
